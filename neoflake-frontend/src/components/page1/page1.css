@@ -1,0 +1,106 @@
+/* Page1.css */
+
+
+.heading{
+    text-align: center;
+    color: green;
+}
+
+.gopage2{
+    text-align: end;
+    padding: 10px;
+}
+
+.gopage2 a{
+   
+     color: green;
+ font-size: 20px;
+}
+
+
+
+.upload-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+  .input{
+    height: auto;
+    margin-left:27% ;
+    width: 50%;
+  }
+
+  .text-area{
+    height: 70px;
+    width: 50%;
+    margin-left:20% ;
+
+  }
+  
+  .description{
+    margin-top: 20px;
+    display: flex;
+  }
+
+
+  .lebel{
+    font-size: medium;
+    font-weight: 500;
+  }
+
+
+ 
+  
+  /* Style form elements for larger screens */
+  @media screen and (min-width: 768px) {
+    .upload-form {
+      max-width: 600px;
+    }
+  }
+  
+  /* Style dropzone container */
+  .dropzone-container {
+    margin-top: 20px;
+  }
+  
+  /* Style dropzone for thumbnail and video */
+  .dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Style dropzone text */
+  .dropzone p {
+    margin: 10px 0;
+  }
+  
+  /* Style the upload button */
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the upload button on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .loading{
+    margin-left: 40%;
+  }
+  
+  /* Center the upload button */
+  button[type="button"] {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Add more responsive styles as needed */
+  
